@@ -1,0 +1,23 @@
+1.打开需要提交的代码目录,右键选择Git Bash Here
+
+2.依次执行
+
+// git初始化
+git init
+
+// 将所以文件暂存,如果想添加指定文件,git add 某某文件即可
+git add .
+
+// 提交代码并添加提交注释
+git commit -m 'feat:项目初始化'
+
+// 拉取仓库中的代码
+git pull --rebase origin master
+
+// 关联远程仓库
+git remote add origin 仓库地址(例如:https://github.com/rangowuchen/xxxxx.git)
+
+// 推送到远程仓库
+git push -u origin master
+
+// master 为仓库分支 可以命名为master/main/...
